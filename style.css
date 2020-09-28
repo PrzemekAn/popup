@@ -1,0 +1,58 @@
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: royalblue;
+    color: white;
+    border: none;
+    width: 80px;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px 0 royalblue; */
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(-53%, -52%);
+    box-shadow: 2px 2px 2px 0 black;
+}
+
+.popup {
+    width: 40vw;
+    height: 40vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: royalblue;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.exit-button {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    font-size: 27px;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .2s;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.exit-button:hover {
+    background-color: white;
+    color: royalblue;
+}
